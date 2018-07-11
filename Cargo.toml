@@ -1,0 +1,12 @@
+[package]
+name = "fizzbuzz"
+version = "0.1.0"
+authors = ["musou1500 <musou1500@gmail.com>"]
+
+[dependencies]
+openssl-probe = "0.1.2"
+
+
+[dependencies.ws]
+version = "*"
+features = ["ssl"]
